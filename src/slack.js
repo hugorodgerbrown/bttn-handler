@@ -2,6 +2,8 @@ const { WebClient } = require("@slack/web-api");
 const token = process.env.SLACK_TOKEN;
 const web = new WebClient(token);
 
+const SLACK_CHANNEL="#big-red-button";
+
 /** Post a message to a Slack channel
 
 @param {string} channel - Slack channel name
