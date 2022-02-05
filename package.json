@@ -1,0 +1,27 @@
+{
+  "name": "glitch-bttn-webhook",
+  "version": "0.0.1",
+  "description": "A simple Node app used to receive events from a bt.tn device.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@slack/web-api": "^6.5.1",
+    "express": "^4.17.2",
+    "dotenv": "^15.0.1",
+    "handlebars": "^4.7.7"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/glitch-hello-node"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
